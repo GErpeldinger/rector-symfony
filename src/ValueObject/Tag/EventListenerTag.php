@@ -36,7 +36,7 @@ final class EventListenerTag implements TagInterface
     }
 
     /**
-     * @return array<string, mixed>
+     * @return array{method: string, priority: int, event: string}
      */
     public function getData(): array
     {
